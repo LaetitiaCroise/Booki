@@ -46,7 +46,6 @@ nav {
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
-    padding: 0 10px;
 }
 
 nav ul li a {
@@ -754,7 +753,6 @@ footer {
     #searchbar[type="search"] {
         width: auto;
         padding: 0 255px 0 10px;
-        border-radius: 0;
     }
 
     .loupe .fa-magnifying-glass {
@@ -897,7 +895,6 @@ footer {
     #searchbar[type="search"] {
         width: auto;
         padding: 0 10px 0 10px;
-        border-radius: 0;
     }
 
     .marseille-container3 {
