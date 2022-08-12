@@ -716,6 +716,7 @@ footer {
         width: 100%;
         margin: auto;
         list-style: none;
+        align-items: baseline;
     }
 
     .filtre-titre+.filtre-icone {
