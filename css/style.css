@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800&display=swap');
-@import url("filter.css");
+
 
 :root {
     --blue: #0065FC;
@@ -895,7 +895,7 @@ footer {
 
     #searchbar[type="search"] {
         width: auto;
-        padding: 0 25px 0 10px;
+        padding: 0 10px 0 10px;
     }
 
     .marseille-container3 {
