@@ -5,7 +5,6 @@
     --blue: #0065FC;
     --lightblue: #DEEBFF;
     --grey: #F2F2F2;
-    --greyfull: #b6afaf;
     --font: "raleway";
 }
 
@@ -386,7 +385,7 @@ b {
 }
 
 .gri {
-    color: #b6afaf;
+    color: #F2F2F2;
     font-size: 15px;
 }
 
