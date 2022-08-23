@@ -47,6 +47,7 @@ nav {
     justify-content: space-between;
     flex-wrap: wrap;
     padding: 0;
+    font-weight: 500;
 }
 
 nav ul li a {
@@ -60,8 +61,8 @@ nav ul li a {
 nav ul li a:hover,
 nav ul li a:active
 {
-    border-top-color: #0065FC;
-    color: #0065FC;
+    border-top-color: var(--blue);
+    color: var(--blue);
 } 
 
 
@@ -87,6 +88,7 @@ h1 {
 .soustitre {
     margin: 0 0 20px 15px;
     font-size: 15px;
+    font-weight: 500;
 
 }
 
@@ -103,7 +105,7 @@ h1 {
     color: #000;
     position: relative;
     font-size: 20px;
-    background-color: #f2f2f2;
+    background-color: var(--grey);
     width: 50px;
     height: 45px;
     border: none;
@@ -128,7 +130,7 @@ h1 {
     background-color: #ffff;
     width: 200px;
     height: 45px;
-    border: solid 1px #f2f2f2;
+    border: solid 1px var(--grey);
     outline: none;
     padding: 0 25px;
     border-radius: 0;
@@ -144,7 +146,7 @@ button[type="submit"] {
     height: 45px;
     border: none;
     cursor: pointer;
-    background-color: #0065FC;
+    background-color: var(--blue);
     color: #fff;
 
 
@@ -197,13 +199,13 @@ form {
 .filtre-titre+.filtre-icone {
     display: flex;
     justify-content: space-around;
-    color: #0065FC;
+    color: var(--blue);
     width: 80%;
     list-style: none;
 }
 
 .liste-filtre:hover {
-    background-color: #0065FC;
+    background-color: var(--blue);
     transition: all 1s ease;
 }
 
@@ -216,7 +218,7 @@ form {
 
 .liste-filtre {
     border-radius: 200px;
-    border: 3px #F2F2F2 solid;
+    border: 3px var(--lightblue) solid;
     transition: all 1s ease;
 
 }
@@ -236,11 +238,11 @@ form {
 .fa-child-reaching,
 .fa-heart,
 .fa-dog {
-    background-color: #DEEBFF;
+    background-color: var(--lightblue);
     padding: 15px;
-    color: #0065FC;
+    color: var(--blue);
     border-radius: 200px;
-    border: 3px #DEEBFF solid;
+    border: 3px var(--lightblue) solid;
 }
 
 /* information */
@@ -248,13 +250,14 @@ form {
     display: flex;
     flex-direction: row;
     padding: 0 10px 20px 15px;
+    font-weight: 500;
 }
 
 
 .info i {
-    color: #0065FC;
+    color: var(--blue);
     background-color: #fff;
-    border: 3px solid #f2f2f2;
+    border: 3px solid var(--grey);
     border-radius: 15px;
     height: 30px;
     width: 30px;
@@ -281,7 +284,7 @@ form {
 /* Hebergement à marseille */
 
 .marseille-container2 {
-    background-color: #f2f2f2;
+    background-color: var(--grey);
     border-radius: 20px;
     padding: 40px 30px;
     margin: 0;
@@ -334,7 +337,7 @@ h3 {
 }
 
 h3:hover{
-    color: #0065FC;
+    color: var(--blue);
     transition: all 0.5s ease;
 }
 
@@ -344,11 +347,13 @@ h3:hover{
     font-family: 'Raleway';
     margin-bottom: 10px;
     font-size: 15px;
+    font-weight: 500;
 }
 
 .details1 {
     font-size: 15px;
     margin: 0;
+    font-weight: 500;
 }
 
 
@@ -372,7 +377,7 @@ b {
 }
 
 .blu {
-    color: #0065FC;
+    color: var(--blue);
     font-size: 15px;
 }
 
@@ -385,7 +390,7 @@ b {
 }
 
 .gri {
-    color: #F2F2F2;
+    color: var(--grey);
     font-size: 15px;
 }
 
@@ -414,7 +419,7 @@ b {
 }
 
 .afficherplus:hover {
-    color: #0065FC;
+    color: var(--blue);
     cursor: pointer;
 
 }
@@ -428,7 +433,7 @@ b {
 }
 
 .section2 .titre2 {
-    background-color: #f2f2f2;
+    background-color: var(--grey);
     font-size: 20px;
     margin: 0;
     font-weight: 700;
@@ -436,7 +441,7 @@ b {
 
 .section2 {
     width: 33%;
-    background-color: #f2f2f2;
+    background-color: var(--grey);
     border-radius: 20px;
     padding: 30px;
 }
@@ -604,7 +609,7 @@ b {
 }
 
 .test-activites:hover {
-    color: #0065FC;
+    color: var(--blue);
     transition: all 0.5s ease;
 }
 
@@ -626,7 +631,7 @@ b {
 /* footer */
 
 footer {
-    background-color: #f2f2f2;
+    background-color: var(--grey);
     padding: 40px 0;
     margin-top: 50px;
 }
@@ -644,6 +649,7 @@ footer {
 
 .footer-lien {
     width: 33.333%;
+    font-weight: 500;
 }
 
 .lien-footer {
@@ -652,7 +658,7 @@ footer {
 }
 
 .lien-footer:hover {
-    color: #0065FC;
+    color: var(--blue);
 }
 
 @media screen and (max-width: 992px) {
@@ -674,13 +680,13 @@ footer {
 
     .navbar li a {
         border-top: none;
-        border-bottom: 3px solid #F2F2F2;
+        border-bottom: 3px solid var(--grey);
     }
 
     .navbar li a:hover,
     .navbar li a:active {
-        border-bottom-color: #0065FC;
-        color: #0065FC;
+        border-bottom-color: var(--blue);
+        color: var(--blue);
     }
 
     .container__Logo {
@@ -759,10 +765,10 @@ footer {
 
     .loupe .fa-magnifying-glass {
         display: flex;
-        background-color: #0065FC;
+        background-color: var(--blue);
         padding: 11px;
         color: white;
-        border: 2px #0065fc solid;
+        border: 2px var(--blue) solid;
         border-radius: 15px;
         margin: -15px
     }
@@ -884,8 +890,8 @@ footer {
     }
     .navbar li a:hover,
     .navbar li a:active {
-        border-bottom-color: #0065FC;
-        color: #0065FC;
+        border-bottom-color: var(--blue);
+        color: var(--blue);
     }
 
     .section-hebergement {
