@@ -159,7 +159,7 @@ form {
 
 .rechercher {
     font-size: 13px;
-    font-family: 'Raleway';
+    font-family: var(--font);
     font-weight: bold;
 }
 
@@ -324,7 +324,7 @@ form {
 #hebergements {
     font-size: 20px;
     margin-right: 10px;
-    font-family: 'Raleway';
+    font-family: var(--font);
     font-weight: 700;
     margin-bottom: 20px;
 }
@@ -344,7 +344,7 @@ h3:hover{
 
 
 .details {
-    font-family: 'Raleway';
+    font-family: var(--font);
     margin-bottom: 10px;
     font-size: 15px;
     font-weight: 500;
@@ -413,7 +413,7 @@ b {
     text-decoration: none;
     font-weight: bold;
     font-size: 17px;
-    font-family: 'Raleway';
+    font-family: var(--font);
     color: #000;
 
 }
@@ -517,7 +517,7 @@ b {
 #activites {
     font-size: 20px;
     margin-right: 10px;
-    font-family: 'Raleway';
+    font-family: var(--font);
 }
 
 .section-activités {
