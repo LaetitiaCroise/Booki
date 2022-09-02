@@ -905,10 +905,9 @@ footer {
 
     #searchbar[type="search"] {
         width: auto;
-        padding: 0 255px 0 10px;
+        padding: 0 10px 0 10px;
         -webkit-appearance: none;
     }
-
     .loupe .fa-magnifying-glass {
         display: flex;
         background-color: var(--blue);
@@ -927,6 +926,8 @@ footer {
         -webkit-appearance: none;
 
     }
+
+    
 
     .marseille-container3 {
         flex-direction: column;
