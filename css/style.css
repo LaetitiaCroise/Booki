@@ -218,7 +218,7 @@ form {
 
 .liste-filtre {
     border-radius: 200px;
-    border: 3px var(--lightblue) solid;
+    border: 3px var(--grey) solid;
     transition: all 1s ease;
 
 }
