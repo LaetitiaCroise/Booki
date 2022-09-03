@@ -940,6 +940,9 @@ footer {
     .lien1 {
         width: 100%;
     }
+    .loupe{
+        -webkit-appearance: none;
+    }
 
     .container-activites {
         width: 100%;
@@ -1001,6 +1004,9 @@ footer {
 
     .details1 {
         font-size: 14px;
+    }
+    .loupe{
+        -webkit-appearance: none;
     }
 }
 
