@@ -762,6 +762,7 @@ footer {
         width: auto;
         padding: 0 255px 0 10px;
         -webkit-appearance: none;
+        margin-left: -10px;
     }
     
 
